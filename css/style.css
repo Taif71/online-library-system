@@ -1,0 +1,91 @@
+
+html , body{
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #ECF0F1 ;
+}
+.page-container{
+   /*min-height: 100%;*/
+   /*position: relative;*/
+   width: 100%;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right:  0 !important;
+}
+nav{
+    background-color: turquoise;
+}
+button{
+    background-color: turquoise;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.col-md-12{
+	padding-left: 0 !important;
+	padding-right:  0 !important;
+}
+.navbar-toggler-icon{
+    color: aquamarine;
+}
+.nav-link{
+    color: black;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.center-content{
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 11px 3px black;
+}
+.loginForm{
+	padding: 30px;
+}
+#register-btn{
+    margin-top: 25px;
+}
+.pckg-card{
+    padding: 30px;
+    margin: 20px;
+    background-color:turquoise;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 3px black;
+
+}
+.pckg-card p {
+    margin-top: 10px;
+}
+.pckg-img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 8px;
+}
+.book-btn{
+    background-color: white;
+    width: 120px;
+    float: right;
+}
+.contact{
+    padding: 20px;
+}
+#map {
+    height: 100%;
+    width: 100;
+}
+
+/* footer row */
+
+
+/*Set footer into the bootom*/
+footer{
+    background: black;
+    width: 100%;
+}
+footer h5{
+    color: azure;
+}
